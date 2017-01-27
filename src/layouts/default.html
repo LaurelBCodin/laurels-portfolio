@@ -12,10 +12,11 @@
   </head>
   <body>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> header}}
-    {{> body}}
-    {{> footer}}
+    <div class="wrapper">
+      {{> header}}
+      {{> body}}
+      {{> footer}}
+    </div>
 
     <script src="{{root}}assets/js/app.js"></script>
   </body>

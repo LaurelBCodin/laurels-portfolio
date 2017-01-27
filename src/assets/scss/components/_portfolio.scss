@@ -1,20 +1,17 @@
 // ******* FONT STYLING ******* //
 
+// h1 is used for the website title //
 h1 {
   font-size: 1em;
   letter-spacing: rem-calc(1);
 }
 
+// h2 is used for the sseciton titles and is in the brand red //
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   letter-spacing: rem-calc(.5);
-}
-
-nav {
-  &.a {
-    font-style: bold;
-    letter-spacing: rem-calc(3);
-  }
+  font-weight: bold;
+  color: $secondary-color;
 }
 
 // ******* PORTFOLIO GRID SECTION ******* //
@@ -28,6 +25,21 @@ nav {
     margin-bottom: rem-calc(30);
   }
 }
+
+// ******* PORTFOLIO PAGES ******* //
+
+.portfolio-piece {
+    .portfolio-info {
+      text-align: center;
+    }
+
+    .portfolio-image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
 
 
 // ******* ABOUT SECTION ******* //

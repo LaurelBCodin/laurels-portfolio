@@ -9,5 +9,15 @@
 
   .menu {
     justify-content: center;
-  }
+    align-items: flex-start;
+    font-weight: bold;
+   }
+
+    //  &.a:hover {
+    //   font-color: $secondary-color;
+    //  }
+
+    //  &.a:active {
+    //   font-color: $secondary-color;
+    //  }
 }
